@@ -42,7 +42,7 @@ const team = [
 ];
 
 const milestones = [
-  { year: '2020', event: 'FusionFrameTech founded in San Francisco with a team of 5' },
+  { year: '2020', event: 'FusionFrameTech founded in New Delhi with a team of 5' },
   { year: '2021', event: 'Shipped 30+ projects, expanded to 20-person team' },
   { year: '2022', event: 'Launched AI practice, served first Fortune 500 client' },
   { year: '2023', event: 'Expanded globally, team grew to 35+ across 3 continents' },

@@ -59,7 +59,7 @@ You can control cookies through your browser settings. Disabling certain cookies
 • **Objection:** Object to processing of your personal data
 • **Withdrawal:** Withdraw consent at any time
 
-To exercise these rights, contact us at privacy@fusionframetech.com`,
+To exercise these rights, contact us at fusionframetech.team@gmail.com`,
   },
   {
     title: '7. Data Retention',
@@ -70,9 +70,9 @@ To exercise these rights, contact us at privacy@fusionframetech.com`,
     content: `If you have questions about this Privacy Policy, please contact us:
 
 **FusionFrameTech**
-Email: privacy@fusionframetech.com
+Email: fusionframetech.team@gmail.com
 Phone: +1 (555) 123-4567
-Address: San Francisco, CA, United States`,
+Address: Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058`,
   },
 ];
 

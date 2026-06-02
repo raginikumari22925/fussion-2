@@ -76,9 +76,9 @@ Our total liability for any claim shall not exceed the fees paid in the three mo
   },
   {
     title: '10. Governing Law',
-    content: `These Terms of Service are governed by the laws of the State of California, United States. Any disputes shall be resolved through binding arbitration in San Francisco, CA.
+    content: `These Terms of Service are governed by the laws of India. Any disputes shall be resolved through binding arbitration in New Delhi.
 
-**Contact:** For legal inquiries, contact legal@fusionframetech.com`,
+**Contact:** For legal inquiries, contact fusionframetech.team@gmail.com`,
   },
 ];
 

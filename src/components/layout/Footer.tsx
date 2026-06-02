@@ -25,6 +25,9 @@ const footerLinks = {
   ],
 };
 
+const contactEmail = 'fusionframetech.team@gmail.com';
+const officeAddress = 'Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058';
+
 export default function Footer() {
   return (
     <footer className="relative bg-[#030711] border-t border-white/5 overflow-hidden">
@@ -50,9 +53,9 @@ export default function Footer() {
             </p>
             {/* Contact info */}
             <div className="space-y-2.5 mb-6">
-              <a href="mailto:hello@fusionframetech.com" className="flex items-center gap-2.5 text-slate-400 hover:text-cyan-400 transition-colors text-sm">
+              <a href={`mailto:${contactEmail}`} className="flex items-center gap-2.5 text-slate-400 hover:text-cyan-400 transition-colors text-sm">
                 <Mail size={14} className="text-cyan-500/70" />
-                hello@fusionframetech.com
+                {contactEmail}
               </a>
               <a href="tel:+15551234567" className="flex items-center gap-2.5 text-slate-400 hover:text-cyan-400 transition-colors text-sm">
                 <Phone size={14} className="text-cyan-500/70" />
@@ -60,7 +63,7 @@ export default function Footer() {
               </a>
               <div className="flex items-center gap-2.5 text-slate-400 text-sm">
                 <MapPin size={14} className="text-cyan-500/70" />
-                San Francisco, CA / Remote
+                {officeAddress}
               </div>
             </div>
             {/* Social */}
@@ -132,7 +135,7 @@ export default function Footer() {
             <span className="text-white/10">·</span>
             <Link to="/terms" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Terms of Service</Link>
             <span className="text-white/10">·</span>
-            <span className="text-slate-600 text-xs">Built with precision in San Francisco</span>
+            <span className="text-slate-600 text-xs">Built with precision in New Delhi</span>
           </div>
         </div>
       </div>

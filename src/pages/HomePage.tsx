@@ -1,5 +1,4 @@
 import HeroSection from '../components/sections/HeroSection';
-import TrustedBySection from '../components/sections/TrustedBySection';
 import ServicesSection from '../components/sections/ServicesSection';
 import AboutSection from '../components/sections/AboutSection';
 import WhyUsSection from '../components/sections/WhyUsSection';
@@ -15,7 +14,6 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <TrustedBySection />
       <ServicesSection />
       <AboutSection />
       <WhyUsSection />
