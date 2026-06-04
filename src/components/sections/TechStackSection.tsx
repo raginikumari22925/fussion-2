@@ -58,14 +58,14 @@ const techCategories = [
     ],
   },
   {
-    name: 'Blockchain',
-    color: 'from-amber-500 to-orange-600',
+    name: 'Data Science',
+    color: 'from-amber-500 to-rose-600',
     techs: [
-      { name: 'Ethereum', icon: '♦' },
-      { name: 'Solana', icon: '◎' },
-      { name: 'Hardhat', icon: '🪖' },
-      { name: 'Foundry', icon: '⚒' },
-      { name: 'Web3.js', icon: '⟁' },
+      { name: 'Pandas', icon: 'Pd' },
+      { name: 'NumPy', icon: 'Np' },
+      { name: 'Scikit-learn', icon: 'Sk' },
+      { name: 'Jupyter', icon: 'Jp' },
+      { name: 'Power BI', icon: 'BI' },
     ],
   },
 ];

@@ -5,10 +5,10 @@ import { ArrowRight, Play, ChevronDown } from 'lucide-react';
 import HeroCanvas from '../three/HeroCanvas';
 
 const stats = [
-  { value: '150+', label: 'Projects Delivered' },
+  { value: '20', label: 'Projects Delivered' },
   { value: '98%', label: 'Client Satisfaction' },
   { value: '40+', label: 'Technologies Mastered' },
-  { value: '25+', label: 'Countries Reached' },
+  { value: '2+', label: 'Countries Reached' },
 ];
 
 function AnimatedCounter({ target, suffix = '' }: { target: string; suffix?: string }) {

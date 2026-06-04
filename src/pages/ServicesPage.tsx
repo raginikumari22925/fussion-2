@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import ServicesSection from '../components/sections/ServicesSection';
 import ProcessSection from '../components/sections/ProcessSection';
-import CTASection from '../components/sections/CTASection';
 
 export default function ServicesPage() {
   return (
@@ -40,7 +39,6 @@ export default function ServicesPage() {
 
       <ServicesSection />
       <ProcessSection />
-      <CTASection />
     </div>
   );
 }
