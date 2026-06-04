@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import PortfolioSection from '../components/sections/PortfolioSection';
 import CTASection from '../components/sections/CTASection';
-import TestimonialsSection from '../components/sections/TestimonialsSection';
 
 export default function PortfolioPage() {
   return (
@@ -32,13 +31,12 @@ export default function PortfolioPage() {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-lg max-w-2xl mx-auto"
           >
-            150+ projects across industries. From early-stage startups to Fortune 500 enterprises — here's a selection of our most impactful work.
+            20 projects across industries. From early-stage startups to Fortune 500 enterprises — here's a selection of our most impactful work.
           </motion.p>
         </div>
       </section>
 
       <PortfolioSection />
-      <TestimonialsSection />
       <CTASection />
     </div>
   );

@@ -66,7 +66,7 @@ export default function AboutSection() {
                   {[
                     { label: 'Founded', value: '2020' },
                     { label: 'Team Size', value: '35+' },
-                    { label: 'Projects', value: '150+' },
+                    { label: 'Projects', value: '20' },
                   ].map((m, i) => (
                     <div key={i} className="text-center p-3 rounded-xl bg-white/3 border border-white/5">
                       <div className="text-2xl font-black text-gradient">{m.value}</div>
@@ -96,7 +96,7 @@ export default function AboutSection() {
             >
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-                <span className="text-white text-xs font-semibold">25+ Countries Served</span>
+                <span className="text-white text-xs font-semibold">2+ Countries Served</span>
               </div>
             </motion.div>
           </motion.div>
@@ -122,7 +122,7 @@ export default function AboutSection() {
             </p>
 
             <p className="text-slate-400 leading-relaxed mb-8">
-              Today, we're a full-stack technology partner helping startups launch, scale companies grow, and enterprises transform. Our work spans 25+ countries, 150+ projects, and countless problems solved.
+              Today, we're a full-stack technology partner helping startups launch, scale companies grow, and enterprises transform. Our work spans 2+ countries, 20 projects, and countless problems solved.
             </p>
 
             {/* Mission/Vision */}
