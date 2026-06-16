@@ -71,8 +71,8 @@ To exercise these rights, contact us at fusionframetech.team@gmail.com`,
 
 **FusionFrameTech**
 Email: fusionframetech.team@gmail.com
-Phone: +1 (555) 123-4567
-Address: Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058`,
+Phone: +91 9122240210
+Address: Varanasi`,
   },
 ];
 

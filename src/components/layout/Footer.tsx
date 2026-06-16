@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Zap, Twitter, Github, Linkedin, ArrowUpRight, Mail, Phone, MapPin } from 'lucide-react';
+import { Zap, ArrowUpRight, Mail, Phone, MapPin } from 'lucide-react';
 
 const footerLinks = {
   Services: [
@@ -26,7 +26,7 @@ const footerLinks = {
 };
 
 const contactEmail = 'fusionframetech.team@gmail.com';
-const officeAddress = 'Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058';
+const officeAddress = 'Varanasi';
 
 export default function Footer() {
   return (
@@ -57,31 +57,14 @@ export default function Footer() {
                 <Mail size={14} className="text-cyan-500/70" />
                 {contactEmail}
               </a>
-              <a href="tel:+15551234567" className="flex items-center gap-2.5 text-slate-400 hover:text-cyan-400 transition-colors text-sm">
+              <a href="tel:+919122240210" className="flex items-center gap-2.5 text-slate-400 hover:text-cyan-400 transition-colors text-sm">
                 <Phone size={14} className="text-cyan-500/70" />
-                +1 (555) 123-4567
+                +91 9122240210
               </a>
               <div className="flex items-center gap-2.5 text-slate-400 text-sm">
                 <MapPin size={14} className="text-cyan-500/70" />
                 {officeAddress}
               </div>
-            </div>
-            {/* Social */}
-            <div className="flex items-center gap-3">
-              {[
-                { icon: Twitter, href: '#', label: 'Twitter' },
-                { icon: Github, href: '#', label: 'GitHub' },
-                { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              ].map(({ icon: Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  aria-label={label}
-                  className="w-9 h-9 rounded-xl border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 hover:bg-cyan-500/5 transition-all duration-200"
-                >
-                  <Icon size={16} />
-                </a>
-              ))}
             </div>
           </div>
 
@@ -135,7 +118,7 @@ export default function Footer() {
             <span className="text-white/10">·</span>
             <Link to="/terms" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Terms of Service</Link>
             <span className="text-white/10">·</span>
-            <span className="text-slate-600 text-xs">Built with precision in New Delhi</span>
+            <span className="text-slate-600 text-xs">Built with precision in Varanasi</span>
           </div>
         </div>
       </div>

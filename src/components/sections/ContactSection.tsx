@@ -22,9 +22,9 @@ const services = [
   'Blockchain', 'Technology Consulting', 'Other',
 ];
 
-const budgets = ['Under $10K', '$10K - $25K', '$25K - $50K', '$50K - $100K', '$100K+'];
+const budgets = ['Under ₹10L', '₹10L - ₹25L', '₹25L - ₹50L', '₹50L - ₹1Cr', '₹1Cr+'];
 const contactEmail = 'fusionframetech.team@gmail.com';
-const officeAddress = 'New Delhi';
+const officeAddress = 'Varanasi';
 
 export default function ContactSection() {
   const ref = useRef(null);
@@ -85,7 +85,7 @@ export default function ContactSection() {
           >
             {[
               { icon: Mail, label: 'Email', value: contactEmail, href: `mailto:${contactEmail}` },
-              { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
+              { icon: Phone, label: 'Phone', value: '+91 9122240210', href: 'tel:+919122240210' },
               { icon: MapPin, label: 'Location', value: officeAddress, href: null },
             ].map(({ icon: Icon, label, value, href }) => (
               <div key={label} className="glass-card rounded-xl p-5 flex items-start gap-4">
