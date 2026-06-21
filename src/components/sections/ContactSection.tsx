@@ -24,7 +24,7 @@ const services = [
 
 const budgets = ['Under ₹10L', '₹10L - ₹25L', '₹25L - ₹50L', '₹50L - ₹1Cr', '₹1Cr+'];
 const contactEmail = 'fusionframetech.team@gmail.com';
-const officeAddress = 'Varanasi';
+const officeAddress = 'Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058';
 
 export default function ContactSection() {
   const ref = useRef(null);

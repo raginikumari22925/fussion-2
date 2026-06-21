@@ -26,7 +26,7 @@ const footerLinks = {
 };
 
 const contactEmail = 'fusionframetech.team@gmail.com';
-const officeAddress = 'Varanasi';
+const officeAddress = 'Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058';
 
 export default function Footer() {
   return (
@@ -118,7 +118,7 @@ export default function Footer() {
             <span className="text-white/10">·</span>
             <Link to="/terms" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Terms of Service</Link>
             <span className="text-white/10">·</span>
-            <span className="text-slate-600 text-xs">Built with precision in Varanasi</span>
+            <span className="text-slate-600 text-xs">Built with precision in New Delhi</span>
           </div>
         </div>
       </div>

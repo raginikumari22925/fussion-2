@@ -72,7 +72,7 @@ To exercise these rights, contact us at fusionframetech.team@gmail.com`,
 **FusionFrameTech**
 Email: fusionframetech.team@gmail.com
 Phone: +91 9122240210
-Address: Varanasi`,
+Address: Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058`,
   },
 ];
 
