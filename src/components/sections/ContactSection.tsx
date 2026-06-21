@@ -86,7 +86,7 @@ export default function ContactSection() {
             {[
               { icon: Mail, label: 'Email', value: contactEmail, href: `mailto:${contactEmail}` },
               { icon: Phone, label: 'Phone', value: '+91 9122240210', href: 'tel:+919122240210' },
-              { icon: MapPin, label: 'Location', value: officeAddress, href: null },
+              { icon: MapPin, label: 'Location', value: 'New Delhi', href: null },
             ].map(({ icon: Icon, label, value, href }) => (
               <div key={label} className="glass-card rounded-xl p-5 flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center flex-shrink-0">
