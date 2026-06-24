@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Zap, ArrowUpRight, Mail, Phone, MapPin } from 'lucide-react';
+import { ArrowUpRight, Mail, Phone, MapPin } from 'lucide-react';
 
 const footerLinks = {
   Services: [
@@ -25,8 +25,8 @@ const footerLinks = {
   ],
 };
 
-const contactEmail = 'fusionframetech.team@gmail.com';
-const officeAddress = 'Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058';
+const contactEmail = 'arun.sarthaktech@gmail.com';
+const officeAddress = '134-G-Block, Near Sukharia Circle, Hanuman Mandir Road, Ganganagar, Sri Ganganagar-Rajasthan-335001, Rajasthan';
 
 export default function Footer() {
   return (
@@ -40,12 +40,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2.5 mb-5 group w-fit">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-[0_0_20px_rgba(6,182,212,0.4)]">
-                <Zap size={18} className="text-white" strokeWidth={2.5} />
+              <div className="w-9 h-9 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.4)]">
+                <img src="/logo.jpg" alt="ArunSarthakTech Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-white text-base leading-none">FusionFrame</span>
-                <span className="text-cyan-400 text-xs font-semibold tracking-widest uppercase leading-none mt-0.5">Tech</span>
+                <span className="font-bold text-white text-base leading-none">ArunSarthakTech</span>
               </div>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs mb-6">
@@ -111,14 +110,14 @@ export default function Footer() {
         {/* Bottom */}
         <div className="py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-xs">
-            © {new Date().getFullYear()} FusionFrameTech. All rights reserved.
+            © {new Date().getFullYear()} ArunSarthakTech. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Privacy Policy</Link>
             <span className="text-white/10">·</span>
             <Link to="/terms" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Terms of Service</Link>
             <span className="text-white/10">·</span>
-            <span className="text-slate-600 text-xs">Built with precision in New Delhi</span>
+            <span className="text-slate-600 text-xs">Built with precision in Ganganagar</span>
           </div>
         </div>
       </div>

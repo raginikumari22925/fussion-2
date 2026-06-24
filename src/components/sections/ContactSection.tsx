@@ -23,8 +23,8 @@ const services = [
 ];
 
 const budgets = ['Under ₹10L', '₹10L - ₹25L', '₹25L - ₹50L', '₹50L - ₹1Cr', '₹1Cr+'];
-const contactEmail = 'fusionframetech.team@gmail.com';
-const officeAddress = 'Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058';
+const contactEmail = 'arun.sarthaktech@gmail.com';
+const officeAddress = '134-G-Block, Near Sukharia Circle, Hanuman Mandir Road, Ganganagar, Sri Ganganagar-Rajasthan-335001, Rajasthan';
 
 export default function ContactSection() {
   const ref = useRef(null);
@@ -86,7 +86,7 @@ export default function ContactSection() {
             {[
               { icon: Mail, label: 'Email', value: contactEmail, href: `mailto:${contactEmail}` },
               { icon: Phone, label: 'Phone', value: '+91 9122240210', href: 'tel:+919122240210' },
-              { icon: MapPin, label: 'Location', value: 'New Delhi', href: null },
+              { icon: MapPin, label: 'Location', value: 'Ganganagar', href: null },
             ].map(({ icon: Icon, label, value, href }) => (
               <div key={label} className="glass-card rounded-xl p-5 flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center flex-shrink-0">

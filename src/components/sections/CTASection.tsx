@@ -39,7 +39,7 @@ export default function CTASection() {
           </h2>
 
           <p className="text-slate-400 text-lg mb-10 leading-relaxed">
-            Join 150+ companies that trusted FusionFrameTech to bring their digital products to life. The first consultation is free.
+            Join 150+ companies that trusted ArunSarthakTech to bring their digital products to life. The first consultation is free.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

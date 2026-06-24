@@ -70,7 +70,7 @@ export default function WhyUsSection() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-cyan-500/20 bg-cyan-500/5 mb-4"
           >
-            <span className="text-cyan-400 text-xs font-semibold tracking-widest uppercase">Why FusionFrameTech</span>
+            <span className="text-cyan-400 text-xs font-semibold tracking-widest uppercase">Why ArunSarthakTech</span>
           </motion.div>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}

@@ -102,7 +102,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          FusionFrameTech helps startups and businesses transform ideas into powerful digital products through modern technology, AI, cloud infrastructure, and scalable software solutions.
+          ArunSarthakTech helps startups and businesses transform ideas into powerful digital products through modern technology, AI, cloud infrastructure, and scalable software solutions.
         </motion.p>
 
         {/* CTAs */}

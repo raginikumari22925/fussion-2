@@ -59,7 +59,7 @@ You can control cookies through your browser settings. Disabling certain cookies
 • **Objection:** Object to processing of your personal data
 • **Withdrawal:** Withdraw consent at any time
 
-To exercise these rights, contact us at fusionframetech.team@gmail.com`,
+To exercise these rights, contact us at arun.sarthaktech@gmail.com`,
   },
   {
     title: '7. Data Retention',
@@ -69,10 +69,10 @@ To exercise these rights, contact us at fusionframetech.team@gmail.com`,
     title: '8. Contact Us',
     content: `If you have questions about this Privacy Policy, please contact us:
 
-**FusionFrameTech**
-Email: fusionframetech.team@gmail.com
+**ArunSarthakTech**
+Email: arun.sarthaktech@gmail.com
 Phone: +91 9122240210
-Address: Office no 104 DDA COMPLEX JANAK PURI C BLOCK PANKHA ROAD NEW DELHI 110058`,
+Address: 134-G-Block, Near Sukharia Circle, Hanuman Mandir Road, Ganganagar, Sri Ganganagar-Rajasthan-335001, Rajasthan`,
   },
 ];
 
@@ -106,7 +106,7 @@ export default function PrivacyPage() {
               className="glass-card rounded-2xl p-6"
             >
               <p className="text-slate-300 leading-relaxed">
-                FusionFrameTech ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our services.
+                ArunSarthakTech ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage our services.
               </p>
             </motion.div>
 

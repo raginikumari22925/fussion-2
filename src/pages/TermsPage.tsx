@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const sections = [
   {
     title: '1. Acceptance of Terms',
-    content: `By accessing or using FusionFrameTech's website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.`,
+    content: `By accessing or using ArunSarthakTech's website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.`,
   },
   {
     title: '2. Use of Website',
@@ -28,7 +28,7 @@ const sections = [
     title: '4. Intellectual Property',
     content: `**Client Work:** Upon full payment, all intellectual property created specifically for client projects transfers to the client. This includes source code, designs, and documentation.
 
-**Pre-existing IP:** FusionFrameTech retains ownership of pre-existing tools, frameworks, and methodologies used in project delivery.
+**Pre-existing IP:** ArunSarthakTech retains ownership of pre-existing tools, frameworks, and methodologies used in project delivery.
 
 **Portfolio Rights:** We reserve the right to include completed projects in our portfolio unless otherwise agreed in writing.
 
@@ -50,7 +50,7 @@ const sections = [
   },
   {
     title: '7. Limitation of Liability',
-    content: `To the maximum extent permitted by law, FusionFrameTech shall not be liable for:
+    content: `To the maximum extent permitted by law, ArunSarthakTech shall not be liable for:
 • Indirect, incidental, or consequential damages
 • Loss of profits or business opportunities
 • Data loss beyond what reasonable backups could recover
@@ -71,14 +71,14 @@ Our total liability for any claim shall not exceed the fees paid in the three mo
     title: '9. Termination',
     content: `Either party may terminate a project engagement with 30 days written notice. Upon termination:
 • Client pays for work completed to date
-• FusionFrameTech delivers all completed work
+• ArunSarthakTech delivers all completed work
 • Both parties return or destroy confidential information`,
   },
   {
     title: '10. Governing Law',
-    content: `These Terms of Service are governed by the laws of India. Any disputes shall be resolved through binding arbitration in New Delhi.
+    content: `These Terms of Service are governed by the laws of India. Any disputes shall be resolved through binding arbitration in Ganganagar.
 
-**Contact:** For legal inquiries, contact fusionframetech.team@gmail.com`,
+**Contact:** For legal inquiries, contact arun.sarthaktech@gmail.com`,
   },
 ];
 
@@ -112,7 +112,7 @@ export default function TermsPage() {
               className="glass-card rounded-2xl p-6"
             >
               <p className="text-slate-300 leading-relaxed">
-                These Terms of Service govern your use of FusionFrameTech's website and services. Please read them carefully before engaging our services or using our website.
+                These Terms of Service govern your use of ArunSarthakTech's website and services. Please read them carefully before engaging our services or using our website.
               </p>
             </motion.div>
 

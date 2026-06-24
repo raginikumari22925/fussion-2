@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { label: 'Services', href: '/services' },
@@ -41,13 +41,11 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 group">
-              <div className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-[0_0_20px_rgba(6,182,212,0.5)] group-hover:shadow-[0_0_30px_rgba(6,182,212,0.8)] transition-all duration-300">
-                <Zap size={18} className="text-white" strokeWidth={2.5} />
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="relative w-9 h-9 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.5)] group-hover:shadow-[0_0_30px_rgba(6,182,212,0.8)] transition-all duration-300">
+                <img src="/logo.jpg" alt="ArunSarthakTech Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-white text-base leading-none tracking-tight">FusionFrame</span>
-                <span className="text-cyan-400 text-xs font-semibold tracking-widest uppercase leading-none mt-0.5">Tech</span>
+                <span className="font-bold text-white text-base leading-none tracking-tight">ArunSarthakTech</span>
               </div>
             </Link>
 

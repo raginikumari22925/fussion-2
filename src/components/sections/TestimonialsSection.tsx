@@ -8,7 +8,7 @@ const testimonials = [
     role: 'CEO & Co-Founder',
     company: 'NeuralCommerce Inc.',
     avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
-    text: 'FusionFrameTech delivered our AI-powered platform in just 10 weeks. The quality was exceptional — the codebase is clean, scalable, and our users love the experience. They\'re not just developers, they\'re true technology partners.',
+    text: 'ArunSarthakTech delivered our AI-powered platform in just 10 weeks. The quality was exceptional — the codebase is clean, scalable, and our users love the experience. They\'re not just developers, they\'re true technology partners.',
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
     role: 'CTO',
     company: 'ChainVault Protocol',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
-    text: 'Building DeFi protocols requires extreme precision. FusionFrameTech\'s blockchain team passed every security audit with zero vulnerabilities. We hit $50M TVL within 3 months of launch. Incredible work.',
+    text: 'Building DeFi protocols requires extreme precision. ArunSarthakTech\'s blockchain team passed every security audit with zero vulnerabilities. We hit $50M TVL within 3 months of launch. Incredible work.',
     rating: 5,
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
     role: 'Founder',
     company: 'HealthSync Platform',
     avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
-    text: 'Healthcare software requires strict HIPAA compliance and impeccable UX. FusionFrameTech nailed both. Our platform onboarded 10,000+ patients in the first quarter. The attention to detail is unmatched.',
+    text: 'Healthcare software requires strict HIPAA compliance and impeccable UX. ArunSarthakTech nailed both. Our platform onboarded 10,000+ patients in the first quarter. The attention to detail is unmatched.',
     rating: 5,
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     role: 'VP Engineering',
     company: 'LogiFlow Enterprise',
     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
-    text: 'Our enterprise system processes 500K+ daily shipments across 40 countries. FusionFrameTech built it to handle 10x our current load from day one. Zero downtime in 18 months of production.',
+    text: 'Our enterprise system processes 500K+ daily shipments across 40 countries. ArunSarthakTech built it to handle 10x our current load from day one. Zero downtime in 18 months of production.',
     rating: 5,
   },
   {
@@ -40,7 +40,7 @@ const testimonials = [
     role: 'Product Lead',
     company: 'EduVerse Learning',
     avatar: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop&crop=face',
-    text: 'The mobile app FusionFrameTech built for us is genuinely beautiful. 100,000+ students use it daily and the App Store rating is 4.9 stars. They understood our vision from day one and exceeded every expectation.',
+    text: 'The mobile app ArunSarthakTech built for us is genuinely beautiful. 100,000+ students use it daily and the App Store rating is 4.9 stars. They understood our vision from day one and exceeded every expectation.',
     rating: 5,
   },
 ];

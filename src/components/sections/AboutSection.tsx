@@ -118,7 +118,7 @@ export default function AboutSection() {
             </h2>
 
             <p className="text-slate-400 leading-relaxed mb-5">
-              FusionFrameTech was born from a simple belief: great technology should be accessible to every company, not just the Fortune 500. We founded the company with a team of engineers from top tech companies, united by a passion for building things that matter.
+              ArunSarthakTech was born from a simple belief: great technology should be accessible to every company, not just the Fortune 500. We founded the company with a team of engineers from top tech companies, united by a passion for building things that matter.
             </p>
 
             <p className="text-slate-400 leading-relaxed mb-8">
